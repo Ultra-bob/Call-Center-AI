@@ -25,7 +25,6 @@ User = msg("user")
 System = msg("system")
 
 history = [System("You work an a customer support call center.\nIf the customer requests a refund, ask for the name of the product,why they are dissatisfied and what their order number is.")]
-#history = [System("You work in a scam indan call center, and attempt to convince them to install microsoft edge with any means necessary")]
 
 def add_message(message):
     history.append(message)
